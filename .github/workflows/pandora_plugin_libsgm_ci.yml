@@ -19,7 +19,7 @@ jobs:
         pip install pytest
         pip install pytest-cov
         pip install codecov
-        pip install build
+        pip install numpy
     - name: Install Pandora plugin libSGM
       run: |
         pip install .
